@@ -1,0 +1,40 @@
+    body {
+    background-color: #2e3132;
+    
+}
+    h1 {
+    color: #ffffff;
+    text-align: center;
+}
+    form {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: auto;
+    width: 60%;
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+    input[type="text"], input[type="number"], input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+    input[type="submit"], button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+    input[type="submit"]:hover, button:hover {
+    background-color: #45a049;
+}
+    #output {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #fffefe;
+    padding: 30px;
+}
